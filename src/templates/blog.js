@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import PostList from '../components/PostList'
 import Pagination from '../components/Pagination'
-import home from '../img/home.svg'
+import home from '../img/home.jpg'
 import shape from '../img/shape.svg'
 import client from '../img/client.svg'
 import feature1 from '../img/feauture1.svg'
@@ -27,19 +27,25 @@ export default class IndexPage extends React.Component {
               <div className="container">
                 <div className="columns">
                   <div className="column  is-4">
-                    <p className="title">
+                    <p className="title is-2">
                       Get your IP done right with Patent P.C.
                     </p>
                     <p className="subtitle">
                       Patent Professional Corporation offers the most comprehensive fixed-fee intellectual property protection for growing businesses.
                     </p>
-                    <button className="button is-primary">
+                    <div className="field">
+                      <input className="input is-medium" type="text" placeholder="Work Email" />
+                    </div>
+                    <button className="button"  style={{
+                      backgroundColor: "#47BFA4",
+                      color: "white"
+                    }}>
                       Get started
                     </button>
                   </div>
                   <div className="column  is-8">
-                    <figure className="image is-4by3">
-                      <img src={home} alt="Kaldi" style={{ width: '400px' }} />
+                    <figure className="image">
+                      <img src={home} alt="Kaldi"/>
                     </figure>
                   </div>
                 </div>
