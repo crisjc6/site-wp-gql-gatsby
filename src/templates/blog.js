@@ -10,9 +10,10 @@ import client from '../img/client.svg'
 import feature1 from '../img/feauture1.svg'
 import feature2 from '../img/feature2.svg'
 import feature3 from '../img/feature2.svg'
-import descri01 from '../img/descri01.svg'
-import descri02 from '../img/descri02.svg'
-import descri03 from '../img/descri03.svg'
+import descri01 from '../img/descri01.jpg'
+import descri02 from '../img/descri02.jpg'
+import descri03 from '../img/descri03.jpg'
+import footer from '../img/footer.svg'
 
 export default class IndexPage extends React.Component {
   render() {
@@ -38,7 +39,7 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="column  is-8">
                     <figure className="image is-4by3">
-                      <img src={home} alt="Kaldi" style={{ width: '350px' }} />
+                      <img src={home} alt="Kaldi" style={{ width: '400px' }} />
                     </figure>
                   </div>
                 </div>
@@ -53,9 +54,6 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <figure className="image is-4by3">
-            <img src={shape} alt="Kaldi"/>
-          </figure>
           <section className="hero"  style={{
             backgroundColor: "#F9FAFC",
           }}>
@@ -144,7 +142,7 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <section className="hero is-fullheight is-default is-bold">
+          <section className="hero is-default is-bold">
             <div className="hero-body">
               <div className="container has-text-centered">
                 <div className="columns is-vcentered">
@@ -196,8 +194,30 @@ export default class IndexPage extends React.Component {
               </div>
             </div>
           </section>
-          <PostList posts={posts} title="Latest posts" />
-          <Pagination pageContext={pageContext} pathPrefix="/" />
+          <section className="hero is-primary">
+            <div className="hero-body">
+              <div className="container">
+                <div className="columns">
+                  <div className="column  is-6">
+                    <p className="title is-size-5">
+                      Start PatentPC today
+                      Signing up for PatentPC is easy. We think once you experience truly stress-free IP processes, you won’t want to go back.
+                    </p>
+                  </div>
+                  <div className="column is-6">
+                    <div className="field">
+                      <input className="input is-rounded is-medium" type="text" placeholder="Email" />
+                    </div>
+                    <button className="button  is-rounded is-info is-inverted">
+                      Get started
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/*<PostList posts={posts} title="Latest posts" />*/}
+          {/*<Pagination pageContext={pageContext} pathPrefix="/" />*/}
         </Layout>
     )
   }
