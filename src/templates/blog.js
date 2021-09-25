@@ -175,7 +175,7 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="column is-5">
                     <figure className="image is-4by3">
-                      <img src={descri01} alt="Kaldi"/>
+                      <img className="is-rounded" src={descri01} alt="Kaldi"/>
                     </figure>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ export default class IndexPage extends React.Component {
                 <div className="columns is-vcentered">
                   <div className="column is-5">
                     <figure className="image is-4by3">
-                      <img src={descri02} alt="Kaldi"/>
+                      <img className="is-rounded"  src={descri02} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column is-6 is-offset-1 is-vcentered">
@@ -207,17 +207,94 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="column is-5">
                     <figure className="image is-4by3">
-                      <img src={descri03} alt="Kaldi"/>
+                      <img className="is-rounded"  src={descri03} alt="Kaldi"/>
                     </figure>
                   </div>
                 </div>
               </div>
             </div>
           </section>
-          <section className="hero is-primary" style={{
-            backgroundColor: "#423D71"
+          <section className="section is-medium hero" style={{
+            // backgroundColor: "#a9a6ff",
+            paddingBottom: "0.3em",
+            paddingTop: "3em"
           }}>
-            <div className="hero-body">
+            <div className="overlay">
+            </div>
+            <div className="container">
+
+              <div className="title has-text-centered">
+                <h2 className="title is-3 light-text is-spaced">CLIENT TESTIMONIALS</h2>
+                <h3 className="subtitle is-5 light-text">Prior results described on this site do not guarantee similar outcomes in future cases or transactions.</h3>
+              </div>
+
+              <div className="content-wrapper">
+                <div className="columns is-vcentered">
+                  <div className="column is-4">
+                    <div className="box has-background-white has-text-grey-dark">
+                      <p>
+        <span className="font-bold has-text-primary is-size-5">
+            “
+        </span>
+                        Working with Bryant and Cognition IP has been great. They did some really thorough freedom to operate and patentability searches for us in a complicated med-device landscape.
+                        <span className="font-bold has-text-primary is-size-5">
+            ”
+        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="column is-4 is-fullheight">
+                    <div className="box has-background-white has-text-grey-dark" style={{
+                      paddingBottom: "40px",
+                      paddingTop: "40px"
+                    }}>
+                      <p>
+        <span className="font-bold has-text-primary is-size-5">
+            “
+        </span>
+                        Cognition IP helped our firm accelerate our learning, create our IP strategy, and execute that strategy.
+                        <span className="font-bold has-text-primary is-size-5">
+            ”
+        </span>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="column is-4">
+                    <div className="box has-background-white has-text-grey-dark"
+                         style={{
+                           paddingBottom: "45px",
+                           paddingTop: "45x"
+                         }}>
+                      <p>
+        <span className="font-bold has-text-primary is-size-5">
+            “
+        </span>
+                        Cognition IP developed our IP strategy for several computer vision patents. Besides being very comprehensive and having quick turnaround.
+                        <span className="font-bold has-text-primary is-size-5">
+            ”
+        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section className="hero">
+            <div className="hero-head">
+              <div className="full-width-image-container">
+                <figure className="image">
+                  <img className="pt-1 pb-1"  src={footer} alt="Kaldi" style={{
+                    // backgroundColor: "#a9a6ff",
+                    paddingBottom: "0.8em",
+                    paddingTop: "0.8em",
+                  }}/>
+                </figure>
+              </div>
+            </div>
+            <div className=" hero hero-body is-primary" style={{
+              backgroundColor: "#423D71"
+            }}>
               <div className="container">
                 <div className="columns">
                   <div className="column is-6">
