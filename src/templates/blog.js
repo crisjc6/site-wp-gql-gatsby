@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import PostList from '../components/PostList'
 import Pagination from '../components/Pagination'
 import home from '../img/home.jpg'
+import cover from '../img/cover.png'
 import shape from '../img/shape.svg'
 import client from '../img/client.svg'
 import feature1 from '../img/feauture1.svg'
@@ -45,13 +46,13 @@ export default class IndexPage extends React.Component {
                   <div className="column  is-4" style={{
                     paddingTop: "50px"
                   }}>
-                    <p className="title is-2 has-text-primary">
+                    <h1 className="title is-2 has-text-primary">
                       Why PowerPatent?
-                    </p>
-                    <p className="subtitle">
+                    </h1>
+                    <h2 className="subtitle">
                       IP. Simplified.
                       PowerPatent helps companies manage patent and IP creation, filing, issuance, maintenance, licensing, and monetization.
-                    </p>
+                    </h2>
                     {/*<div className="field">*/}
                     {/*  <input className="input is-medium" type="text" placeholder="Work Email" />*/}
                     {/*</div>*/}
@@ -72,7 +73,7 @@ export default class IndexPage extends React.Component {
                   </div>
                   <div className="column  is-8">
                     <figure className="image">
-                      <img src={home} alt="Kaldi"/>
+                      <img src={cover} alt="Kaldi"/>
                     </figure>
                   </div>
                 </div>
