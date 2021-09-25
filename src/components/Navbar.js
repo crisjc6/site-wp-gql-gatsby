@@ -52,12 +52,12 @@ const Navbar = class extends React.Component {
                                         role="navigation"
                                         aria-label="main-navigation"
                                     >
-                                        <div className="container flex-around">
-                                            <div className="navbar-brand logo">
+                                        <div className="container">
+                                            <div className="navbar-brand " style={{width: "auto", height: "auto", boxSizing: "border-box" }}>
                                                 <Link to="/" className="navbar-item">
-                                                    <figure className="image">
-                                                        <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-                                                    </figure>
+                                                        <img src={logo} alt="Kaldi" width="150" height="50"
+                                                             style={{ width: "200px"}}
+                                                        />
                                                 </Link>
                                                 {/* Hamburger menu */}
                                                 <div

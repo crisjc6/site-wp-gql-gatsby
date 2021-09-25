@@ -9,7 +9,23 @@ import shape from '../img/shape.svg'
 import client from '../img/client.svg'
 import feature1 from '../img/feauture1.svg'
 import feature2 from '../img/feature2.svg'
-import feature3 from '../img/feature3.svg'
+import feature3 from '../img/feature3.png'
+import numed from '../img/numed.png'
+import eoflow from '../img/eoflow.png'
+import mono from '../img/mono.png'
+import onevalley from '../img/onevalley.png'
+import cisbay from '../img/cisbay.png'
+import micro from '../img/micro.png'
+import jengas from '../img/jengas.png'
+import tartan from '../img/tartan.png'
+import boom from '../img/boom.png'
+import scale from '../img/scale.png'
+import reflect from '../img/reflect.png'
+import person from '../img/person.png'
+import person1 from '../img/person1.png'
+import person2 from '../img/person2.png'
+import person3 from '../img/person3.png'
+import top1 from '../img/top1.png'
 import descri01 from '../img/descri01.jpg'
 import descri02 from '../img/descri02.jpg'
 import descri03 from '../img/descri03.jpg'
@@ -29,20 +45,29 @@ export default class IndexPage extends React.Component {
                   <div className="column  is-4" style={{
                     paddingTop: "50px"
                   }}>
-                    <p className="title is-2">
-                      Get your IP done right with Patent P.C.
+                    <p className="title is-2 has-text-primary">
+                      Why PowerPatent?
                     </p>
                     <p className="subtitle">
-                      Patent Professional Corporation offers the most comprehensive fixed-fee intellectual property protection for growing businesses.
+                      IP. Simplified.
+                      PowerPatent helps companies manage patent and IP creation, filing, issuance, maintenance, licensing, and monetization.
                     </p>
-                    <div className="field">
-                      <input className="input is-medium" type="text" placeholder="Work Email" />
-                    </div>
-                    <button className="button"  style={{
-                      backgroundColor: "#47BFA4",
-                      color: "white"
+                    {/*<div className="field">*/}
+                    {/*  <input className="input is-medium" type="text" placeholder="Work Email" />*/}
+                    {/*</div>*/}
+                    <button className="button  is-info" style={{
+                      backgroundColor: "#faa635",
+                      color: "white",
+                      margin:"0.5em",
                     }}>
-                      Get started
+                      Resquest a Demo
+                    </button>
+                    <button className="button  is-outlined" style={{
+                      borderColor: "#faa635",
+                      color: "#faa635",
+                      margin:"0.5em",
+                    }}>
+                      Take a Video Tour
                     </button>
                   </div>
                   <div className="column  is-8">
@@ -63,6 +88,78 @@ export default class IndexPage extends React.Component {
                   <div className="column is-1">
                   </div>
                 </div>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <p className="title has-text-primary is-size-4 pb-6">
+                      TRUSTED BY:
+                    </p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={numed} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={eoflow} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={mono} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={onevalley} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={cisbay} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={micro} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-1">
+
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={jengas} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={tartan} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={boom} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={scale} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column has-text-centered is-2">
+                    <figure className="bd-focus-icon is-flex">
+                      <img src={reflect} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                  </div>
+                  <div className="column is-1">
+
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -71,31 +168,31 @@ export default class IndexPage extends React.Component {
           }}>
             <div className="hero-body">
               <div className="container">
-                <div className="columns">
-                  <div className="column is-1">
-                  </div>
-                  <div className="column is-10 has-text-centered">
-                    <p className="title">
-                      Protect your business and increase your company valuation through the IP system.
-                    </p>
-                    <p className="subtitle">
-                      With Patent PC, you get great protection with precision. Our expert IP team is assisted by powerful software that accelerates our workflow and helps us make better decisions through advanced IP analytics.
-                    </p>
-                  </div>
-                  <div className="column is-1">
-                  </div>
-                </div>
-                <div className="columns is-vcentered" >
-                  <div className="column is-4">
-                  </div>
-                  <div className="column   is-justify-content-center is-4">
-                    <figure className="image">
-                      <img src={client} alt="Kaldi" />
-                    </figure>
-                  </div>
-                  <div className="column is-4">
-                  </div>
-                </div>
+                {/*<div className="columns">*/}
+                {/*  <div className="column is-1">*/}
+                {/*  </div>*/}
+                {/*  <div className="column is-10 has-text-centered">*/}
+                {/*    <p className="title">*/}
+                {/*      Protect your business and increase your company valuation through the IP system.*/}
+                {/*    </p>*/}
+                {/*    <p className="subtitle">*/}
+                {/*      With Patent PC, you get great protection with precision. Our expert IP team is assisted by powerful software that accelerates our workflow and helps us make better decisions through advanced IP analytics.*/}
+                {/*    </p>*/}
+                {/*  </div>*/}
+                {/*  <div className="column is-1">*/}
+                {/*  </div>*/}
+                {/*</div>*/}
+                {/*<div className="columns is-vcentered" >*/}
+                {/*  <div className="column is-4">*/}
+                {/*  </div>*/}
+                {/*  <div className="column   is-justify-content-center is-4">*/}
+                {/*    <figure className="image">*/}
+                {/*      <img src={client} alt="Kaldi" />*/}
+                {/*    </figure>*/}
+                {/*  </div>*/}
+                {/*  <div className="column is-4">*/}
+                {/*  </div>*/}
+                {/*</div>*/}
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <p className="title has-text-primary is-size-4 pb-6">
@@ -105,64 +202,90 @@ export default class IndexPage extends React.Component {
                 </div>
                 <nav className="columns">
                   <a className="bd-focus-item column has-text-centered">
+                    <p className="">
+                      <strong>
+                        Founders
+                      </strong>
+                    </p>
+                    <p className="subtitle is-6">
+                      Streamline how you manage IP from founding to IPO Provisional/Utility Applications Trademark Applications
+                    </p>
                     <figure className="bd-focus-icon">
                       <img src={feature1} alt="Kaldi" style={{ width: '100px' }}/>
                     </figure>
-                    <p className="">
-                      <strong>
-                        TRUSTED PROFESSIONALS
-                      </strong>
-                    </p>
-                    <p className="subtitle is-6 has-text-justified has-text-right">
-                      Our patent lawyers and agents came from large law firms and have worked with many Fortune 500 companies.
-                    </p>
                   </a>
                   <a className="bd-focus-item column has-text-centered">
+                    <p className="">
+                      <strong>
+                        Lawyers
+                      </strong>
+                    </p>
+                    <p className="subtitle is-6">
+                      Manage IP with your clients built-in diagnostic checks, private PAIR docketing, predictive analytics & discounts for your clients
+                    </p>
                     <figure className="bd-focus-icon">
                       <img src={feature2} alt="Kaldi" style={{ width: '100px' }}/>
                     </figure>
-                    <p className="">
-                      <strong>
-                        ADVANCED TECHNOLOGY
-                      </strong>
-                    </p>
-                    <p className="subtitle is-6 has-text-justified has-text-right">
-                      We not only understand technology, but we also developed AI software to improve our IP workflow and pass the savings to you.
-                    </p>
                   </a>
                   <a className="bd-focus-item column has-text-centered">
-                    <figure className="bd-focus-icon">
-                      <img src={feature1} alt="Kaldi" style={{ width: '100px' }}/>
-                    </figure>
                     <p className="">
                       <strong>
-                        FIXED-FEE PRICING
+                        Companies
                       </strong>
                     </p>
-                    <p className="subtitle is-6 has-text-justified has-text-right">
-                      Our tech enables your disclosure to be efficiently converted to patents. Our cost-effective flat-rate pricing ensures that legal bill surprises are not in your future.
+                    <p className="subtitle is-6">
+                      Modernize your invention management, enforcement and monetization Invention disclosure admin, valuations, docketing, predictive analytics & portfolio insights
                     </p>
-                  </a>
-                  <a className="bd-focus-item column has-text-centered">
                     <figure className="bd-focus-icon">
                       <img src={feature3} alt="Kaldi" style={{ width: '100px' }}/>
                     </figure>
-                    <p className="">
-                      <strong>
-                        PERSONALIZED SERVICE
-
-                      </strong>
-                    </p>
-                    <p className="subtitle is-6 has-text-justified has-text-right">
-                      Get fast, responsive service. Your dedicated lawyer knows your business from the ground up.
-                    </p>
                   </a>
+                  {/*<a className="bd-focus-item column has-text-centered">*/}
+                  {/*  <figure className="bd-focus-icon">*/}
+                  {/*    <img src={feature2} alt="Kaldi" style={{ width: '100px' }}/>*/}
+                  {/*  </figure>*/}
+                  {/*  <p className="">*/}
+                  {/*    <strong>*/}
+                  {/*      ADVANCED TECHNOLOGY*/}
+                  {/*    </strong>*/}
+                  {/*  </p>*/}
+                  {/*  <p className="subtitle is-6 has-text-justified has-text-right">*/}
+                  {/*    We not only understand technology, but we also developed AI software to improve our IP workflow and pass the savings to you.*/}
+                  {/*  </p>*/}
+                  {/*</a>*/}
+                  {/*<a className="bd-focus-item column has-text-centered">*/}
+                  {/*  <figure className="bd-focus-icon">*/}
+                  {/*    <img src={feature1} alt="Kaldi" style={{ width: '100px' }}/>*/}
+                  {/*  </figure>*/}
+                  {/*  <p className="">*/}
+                  {/*    <strong>*/}
+                  {/*      FIXED-FEE PRICING*/}
+                  {/*    </strong>*/}
+                  {/*  </p>*/}
+                  {/*  <p className="subtitle is-6 has-text-justified has-text-right">*/}
+                  {/*    Our tech enables your disclosure to be efficiently converted to patents. Our cost-effective flat-rate pricing ensures that legal bill surprises are not in your future.*/}
+                  {/*  </p>*/}
+                  {/*</a>*/}
+                  {/*<a className="bd-focus-item column has-text-centered">*/}
+                  {/*  <figure className="bd-focus-icon">*/}
+                  {/*    <img src={feature3} alt="Kaldi" style={{ width: '100px' }}/>*/}
+                  {/*  </figure>*/}
+                  {/*  <p className="">*/}
+                  {/*    <strong>*/}
+                  {/*      PERSONALIZED SERVICE*/}
+
+                  {/*    </strong>*/}
+                  {/*  </p>*/}
+                  {/*  <p className="subtitle is-6 has-text-justified has-text-right">*/}
+                  {/*    Get fast, responsive service. Your dedicated lawyer knows your business from the ground up.*/}
+                  {/*  </p>*/}
+                  {/*</a>*/}
 
                 </nav>
               </div>
             </div>
           </section>
-          <section className="hero is-default is-bold">
+          {/*<section className="hero is-default is-bold">
             <div className="hero-body">
               <div className="container">
                 <div className="columns is-vcentered">
@@ -213,7 +336,7 @@ export default class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </section>*/}
           <section className="section is-medium hero" style={{
             // backgroundColor: "#a9a6ff",
             paddingBottom: "0.3em",
@@ -232,6 +355,13 @@ export default class IndexPage extends React.Component {
                 <div className="columns is-vcentered">
                   <div className="column is-4">
                     <div className="box has-background-white has-text-grey-dark">
+                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image is-16x16">
+                          <img alt="profil" src={person1} className="is-rounded" style={{
+                            width:"5em"
+                          }}/>
+                        </a>
+                      </div>
                       <p>
         <span className="font-bold has-text-primary is-size-5">
             “
@@ -248,6 +378,13 @@ export default class IndexPage extends React.Component {
                       paddingBottom: "40px",
                       paddingTop: "40px"
                     }}>
+                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image is-16x16">
+                          <img alt="profil" src={person2} className="is-rounded" style={{
+                            width:"5em"
+                          }}/>
+                        </a>
+                      </div>
                       <p>
         <span className="font-bold has-text-primary is-size-5">
             “
@@ -265,6 +402,13 @@ export default class IndexPage extends React.Component {
                            paddingBottom: "45px",
                            paddingTop: "45x"
                          }}>
+                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image is-16x16">
+                          <img alt="profil" src={person3} className="is-rounded" style={{
+                            width:"5em"
+                          }}/>
+                        </a>
+                      </div>
                       <p>
         <span className="font-bold has-text-primary is-size-5">
             “
@@ -282,7 +426,18 @@ export default class IndexPage extends React.Component {
           </section>
           <section className="hero">
             <div className="hero-head">
-              <div className="full-width-image-container">
+              <div className="full-width-image-container" style={
+                {width:"100vw",
+                  position:"relative",
+                  left:"0","right":"0",
+                  margin:"auto",
+                  backgroundSize:"cover",
+                  backgroundPosition:"bottom",
+                  display:"flex",
+                  justifyContent:"center",
+                  alignItems:"center",
+                  paddingTop:"10%"}
+              }>
                 <figure className="image">
                   <img className="pt-1 pb-1"  src={footer} alt="Kaldi"/>
                 </figure>
@@ -295,10 +450,11 @@ export default class IndexPage extends React.Component {
                 <div className="columns">
                   <div className="column is-6">
                     <p className="title is-2">
-                      Get your IP done right with Patent P.C.
+                      Start PowerPatent today
                     </p>
                     <p className="subtitle">
-                      Patent Professional Corporation offers the most comprehensive fixed-fee intellectual property protection for growing businesses.
+                      Signing up for PowerPatent is easy. We think once you experience truly stress-free IP processes, you won’t want to go back.
+
                     </p>
                   </div>
                   <div className="column -is-1">

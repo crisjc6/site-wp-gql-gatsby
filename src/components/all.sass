@@ -1,15 +1,21 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+$font-primary: 'Euclid', sans-serif
+
 // Config vars
 $kaldi-red: #5f2ee5
 $kaldi-red-invert: #fff
 $greencj: #47BFA4
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$family-sans-serif : sans-serif, Euclid
-$family-primary: $family-sans-serif
 $secondary: $greencj
 $secondary-invert: $kaldi-red-invert
+// Body Font:
+@font-face
+  font-family: $font-primary
+  font-style: normal
+  font-weight: normal
+  src: url('../fonts/euclid.ttf') format('truetype')
 
 
 .content .taglist
