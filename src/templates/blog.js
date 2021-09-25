@@ -284,11 +284,7 @@ export default class IndexPage extends React.Component {
             <div className="hero-head">
               <div className="full-width-image-container">
                 <figure className="image">
-                  <img className="pt-1 pb-1"  src={footer} alt="Kaldi" style={{
-                    // backgroundColor: "#a9a6ff",
-                    paddingBottom: "0.8em",
-                    paddingTop: "0.8em",
-                  }}/>
+                  <img className="pt-1 pb-1"  src={footer} alt="Kaldi"/>
                 </figure>
               </div>
             </div>
