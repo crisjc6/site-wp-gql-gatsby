@@ -9,7 +9,7 @@ import shape from '../img/shape.svg'
 import client from '../img/client.svg'
 import feature1 from '../img/feauture1.svg'
 import feature2 from '../img/feature2.svg'
-import feature3 from '../img/feature2.svg'
+import feature3 from '../img/feature3.svg'
 import descri01 from '../img/descri01.jpg'
 import descri02 from '../img/descri02.jpg'
 import descri03 from '../img/descri03.jpg'
@@ -52,11 +52,15 @@ export default class IndexPage extends React.Component {
                   </div>
                 </div>
                 <div className="columns">
-                  <div className="column has-text-centered is-12">
+                  <div className="column is-1">
+                  </div>
+                  <div className="column has-text-centered is-10">
                     <p className="subtitle">
                       Our lawyers have worked on IP protection for
                       (logos for Intel, Applied Materials, Adobe, Shutterfly, Align Tech, Compaq, Univ Calif Berkeley, Stanford in addition to the list in the current page that hidden
                     </p>
+                  </div>
+                  <div className="column is-1">
                   </div>
                 </div>
               </div>
@@ -68,7 +72,9 @@ export default class IndexPage extends React.Component {
             <div className="hero-body">
               <div className="container">
                 <div className="columns">
-                  <div className="column is-12 has-text-centered">
+                  <div className="column is-1">
+                  </div>
+                  <div className="column is-10 has-text-centered">
                     <p className="title">
                       Protect your business and increase your company valuation through the IP system.
                     </p>
@@ -76,22 +82,28 @@ export default class IndexPage extends React.Component {
                       With Patent PC, you get great protection with precision. Our expert IP team is assisted by powerful software that accelerates our workflow and helps us make better decisions through advanced IP analytics.
                     </p>
                   </div>
+                  <div className="column is-1">
+                  </div>
                 </div>
-                <div className="columns is-vcentered" style={{alignContent:"center"}} >
-                  <div className="column" >
+                <div className="columns is-vcentered" >
+                  <div className="column is-4">
+                  </div>
+                  <div className="column   is-justify-content-center is-4">
                     <figure className="image">
-                      <img src={client} alt="Kaldi" style={{ width: '300px' }}/>
+                      <img src={client} alt="Kaldi" />
                     </figure>
+                  </div>
+                  <div className="column is-4">
                   </div>
                 </div>
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <p className="title">
+                    <p className="title has-text-primary is-size-4 pb-6">
                       Why choose us?
                     </p>
                   </div>
                 </div>
-                <nav className="columns box">
+                <nav className="columns">
                   <a className="bd-focus-item column has-text-centered">
                     <figure className="bd-focus-icon">
                       <img src={feature1} alt="Kaldi" style={{ width: '100px' }}/>
@@ -101,7 +113,7 @@ export default class IndexPage extends React.Component {
                         TRUSTED PROFESSIONALS
                       </strong>
                     </p>
-                    <p className="subtitle is-6">
+                    <p className="subtitle is-6 has-text-justified has-text-right">
                       Our patent lawyers and agents came from large law firms and have worked with many Fortune 500 companies.
                     </p>
                   </a>
@@ -114,21 +126,8 @@ export default class IndexPage extends React.Component {
                         ADVANCED TECHNOLOGY
                       </strong>
                     </p>
-                    <p className="subtitle is-6">
+                    <p className="subtitle is-6 has-text-justified has-text-right">
                       We not only understand technology, but we also developed AI software to improve our IP workflow and pass the savings to you.
-                    </p>
-                  </a>
-                  <a className="bd-focus-item column has-text-centered">
-                    <figure className="bd-focus-icon">
-                      <img src={feature3} alt="Kaldi" style={{ width: '100px' }}/>
-                    </figure>
-                    <p className="">
-                      <strong>
-                        FIXED-FEE PRICING
-                      </strong>
-                    </p>
-                    <p className="subtitle is-6">
-                      Our tech enables your disclosure to be efficiently converted to patents. Our cost-effective flat-rate pricing ensures that legal bill surprises are not in your future.
                     </p>
                   </a>
                   <a className="bd-focus-item column has-text-centered">
@@ -137,11 +136,24 @@ export default class IndexPage extends React.Component {
                     </figure>
                     <p className="">
                       <strong>
+                        FIXED-FEE PRICING
+                      </strong>
+                    </p>
+                    <p className="subtitle is-6 has-text-justified has-text-right">
+                      Our tech enables your disclosure to be efficiently converted to patents. Our cost-effective flat-rate pricing ensures that legal bill surprises are not in your future.
+                    </p>
+                  </a>
+                  <a className="bd-focus-item column has-text-centered">
+                    <figure className="bd-focus-icon">
+                      <img src={feature3} alt="Kaldi" style={{ width: '100px' }}/>
+                    </figure>
+                    <p className="">
+                      <strong>
                         PERSONALIZED SERVICE
 
                       </strong>
                     </p>
-                    <p className="subtitle is-6">
+                    <p className="subtitle is-6 has-text-justified has-text-right">
                       Get fast, responsive service. Your dedicated lawyer knows your business from the ground up.
                     </p>
                   </a>
@@ -152,72 +164,82 @@ export default class IndexPage extends React.Component {
           </section>
           <section className="hero is-default is-bold">
             <div className="hero-body">
-              <div className="container has-text-centered">
+              <div className="container">
                 <div className="columns is-vcentered">
-                  <div className="column is-5">
-                    <figure className="image is-4by3">
-                      <img src={descri01} alt="Kaldi"/>
-                    </figure>
-                  </div>
                   <div className="column is-6 is-offset-1 is-vcentered">
-                    <h2 className="subtitle is-4 has-text-centered">
+                    <h2 className="subtitle is-4  has-text-justified has-text-left">
                       Our results are almost 2x better than those of other law firms
                       For clients who wants to go all-the-way, our historical allowance rate has been 95%. This compares to the 55% success rate for the average US law firm. Our work is meticulously done and our diagnostics and analytics produces better results, and this shows in our past successes.
                     </h2>
                     <br />
                   </div>
+                  <div className="column is-5">
+                    <figure className="image is-4by3">
+                      <img src={descri01} alt="Kaldi"/>
+                    </figure>
+                  </div>
                 </div>
               </div>
               <div className="container has-text-centered">
                 <div className="columns is-vcentered">
-                  <div className="column is-6 is-offset-1 is-vcentered">
-                    <h2 className="subtitle is-4 has-text-centered">
-                      You won’t be surprised by our fixed-fees
-                      Our services are priced on a flat-fee basis, so you can budget for all your IP requirements. Others charge by the hour, and you won’t find out until they send you an invoice.  You now have control over your IP spending.
-                    </h2>
-                    <br />
-                  </div>
                   <div className="column is-5">
                     <figure className="image is-4by3">
                       <img src={descri02} alt="Kaldi"/>
                     </figure>
                   </div>
-                </div>
-              </div>
-              <div className="container has-text-centered">
-                <div className="columns is-vcentered">
-                  <div className="column is-5">
-                    <figure className="image is-4by3">
-                      <img src={descri03} alt="Kaldi"/>
-                    </figure>
-                  </div>
                   <div className="column is-6 is-offset-1 is-vcentered">
-                    <h2 className="subtitle is-4 has-text-centered">
-                      Your IP first draft done in days. Not in months.
-                      With first-to-file rules, time is of the essence.  From your disclosure, we can prepare first drafts in a few days with our tech-savvy professionals and our patented system.  You’ll be amazed with our responsiveness.
+                    <h2 className="subtitle is-4  has-text-justified has-text-left">
+                      You won’t be surprised by our fixed-fees
+                      Our services are priced on a flat-fee basis, so you can budget for all your IP requirements. Others charge by the hour, and you won’t find out until they send you an invoice.  You now have control over your IP spending.
                     </h2>
                     <br />
                   </div>
                 </div>
               </div>
+              <div className="container has-text-centered">
+                <div className="columns is-vcentered">
+                  <div className="column is-6 is-offset-1 is-vcentered">
+                    <h2 className="subtitle is-4  has-text-justified has-text-left">
+                      Your IP first draft done in days. Not in months.
+                      With first-to-file rules, time is of the essence.  From your disclosure, we can prepare first drafts in a few days with our tech-savvy professionals and our patented system.  You’ll be amazed with our responsiveness.
+                    </h2>
+                    <br />
+                  </div>
+                  <div className="column is-5">
+                    <figure className="image is-4by3">
+                      <img src={descri03} alt="Kaldi"/>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-          <section className="hero is-primary">
+          <section className="hero is-primary" style={{
+            backgroundColor: "#423D71"
+          }}>
             <div className="hero-body">
               <div className="container">
                 <div className="columns">
-                  <div className="column  is-6">
-                    <p className="title is-size-5">
-                      Start PatentPC today
-                      Signing up for PatentPC is easy. We think once you experience truly stress-free IP processes, you won’t want to go back.
+                  <div className="column is-6">
+                    <p className="title is-2">
+                      Get your IP done right with Patent P.C.
+                    </p>
+                    <p className="subtitle">
+                      Patent Professional Corporation offers the most comprehensive fixed-fee intellectual property protection for growing businesses.
                     </p>
                   </div>
-                  <div className="column is-6">
+                  <div className="column -is-1">
+
+                  </div>
+                  <div className="column is-5">
                     <div className="field">
-                      <input className="input is-rounded is-medium" type="text" placeholder="Email" />
+                      <input className="input is-medium" type="text" placeholder="Work Email" />
                     </div>
-                    <button className="button  is-rounded is-info is-inverted">
-                      Get started
+                    <button className="button"  style={{
+                      backgroundColor: "#47BFA4",
+                      color: "white"
+                    }}>
+                      Try it Now
                     </button>
                   </div>
                 </div>
