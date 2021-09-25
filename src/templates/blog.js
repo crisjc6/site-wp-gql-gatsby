@@ -98,33 +98,33 @@ export default class IndexPage extends React.Component {
                 </div>
                 <div className="columns">
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={numed} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={numed} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={eoflow} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={eoflow} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={mono} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={mono} alt="Kaldi" />
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={onevalley} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={onevalley} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={cisbay} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={cisbay} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={micro} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={micro} alt="Kaldi"/>
                     </figure>
                   </div>
                 </div>
@@ -133,28 +133,28 @@ export default class IndexPage extends React.Component {
 
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={jengas} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={jengas} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={tartan} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={tartan} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={boom} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={boom} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={scale} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={scale} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column has-text-centered is-2">
-                    <figure className="bd-focus-icon is-flex">
-                      <img src={reflect} alt="Kaldi" style={{ width: '100px' }}/>
+                    <figure className="bd-focus-icon ">
+                      <img src={reflect} alt="Kaldi"/>
                     </figure>
                   </div>
                   <div className="column is-1">
@@ -356,11 +356,9 @@ export default class IndexPage extends React.Component {
                 <div className="columns is-vcentered">
                   <div className="column is-4">
                     <div className="box has-background-white has-text-grey-dark">
-                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
-                        <a href="#" className="image is-16x16">
-                          <img alt="profil" src={person1} className="is-rounded" style={{
-                            width:"5em"
-                          }}/>
+                      <div className=" is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image">
+                          <img alt="profil" src={person1} className="is-rounded" width="32" height="32"/>
                         </a>
                       </div>
                       <p>
@@ -379,11 +377,9 @@ export default class IndexPage extends React.Component {
                       paddingBottom: "40px",
                       paddingTop: "40px"
                     }}>
-                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
-                        <a href="#" className="image is-16x16">
-                          <img alt="profil" src={person2} className="is-rounded" style={{
-                            width:"5em"
-                          }}/>
+                      <div className=" is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image">
+                          <img alt="profil" src={person2} className="is-rounded" width="32" height="32"/>
                         </a>
                       </div>
                       <p>
@@ -403,11 +399,9 @@ export default class IndexPage extends React.Component {
                            paddingBottom: "45px",
                            paddingTop: "45x"
                          }}>
-                      <div className="is-flex is-align-items-center is-justify-content-start mt-4">
-                        <a href="#" className="image is-16x16">
-                          <img alt="profil" src={person3} className="is-rounded" style={{
-                            width:"5em"
-                          }}/>
+                      <div className="is-align-items-center is-justify-content-start mt-4">
+                        <a href="#" className="image">
+                          <img alt="profil" src={person3} className="is-rounded" width="32" height="32"/>
                         </a>
                       </div>
                       <p>
@@ -427,7 +421,7 @@ export default class IndexPage extends React.Component {
           </section>
           <section className="hero">
             <div className="hero-head">
-              <div className="full-width-image-container" style={
+              <div  style={
                 {width:"100vw",
                   position:"relative",
                   left:"0","right":"0",
