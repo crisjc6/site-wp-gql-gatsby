@@ -26,7 +26,9 @@ export default class IndexPage extends React.Component {
             <div className="hero-body">
               <div className="container">
                 <div className="columns">
-                  <div className="column  is-4">
+                  <div className="column  is-4" style={{
+                    paddingTop: "50px"
+                  }}>
                     <p className="title is-2">
                       Get your IP done right with Patent P.C.
                     </p>
@@ -66,19 +68,19 @@ export default class IndexPage extends React.Component {
             <div className="hero-body">
               <div className="container">
                 <div className="columns">
-                  <div className="column is-12">
+                  <div className="column is-12 has-text-centered">
                     <p className="title">
-                      Get your IP done right with Patent P.C.
+                      Protect your business and increase your company valuation through the IP system.
                     </p>
                     <p className="subtitle">
-                      Patent Professional Corporation offers the most comprehensive fixed-fee intellectual property protection for growing businesses.
+                      With Patent PC, you get great protection with precision. Our expert IP team is assisted by powerful software that accelerates our workflow and helps us make better decisions through advanced IP analytics.
                     </p>
                   </div>
                 </div>
-                <div className="columns is-vcentered" >
+                <div className="columns is-vcentered" style={{alignContent:"center"}} >
                   <div className="column" >
                     <figure className="image">
-                      <img src={client} alt="Kaldi" style={{ width: '200px' }}/>
+                      <img src={client} alt="Kaldi" style={{ width: '300px' }}/>
                     </figure>
                   </div>
                 </div>
